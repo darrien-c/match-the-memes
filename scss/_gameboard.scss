@@ -1,0 +1,13 @@
+.gameboard {
+    max-width: 950px;
+    height: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    perspective: 1000px;
+    margin-top: 7%;
+    margin-left: 35%;
+    background: linear-gradient( rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.5) ), url('../images/bg_overlay.png');
+    border-radius: 15px;
+}

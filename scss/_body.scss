@@ -1,0 +1,29 @@
+$font-header:'Luckiest Guy', 'sans-serif';
+$font-title: 'Gochi Hand', 'sans-serif';
+// Resets
+
+// Box Sizing
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/blue.png') no-repeat center center fixed ;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+

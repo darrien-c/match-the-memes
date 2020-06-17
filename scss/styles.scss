@@ -1,0 +1,24 @@
+// Master Sass File
+
+// Google Fonts Import
+
+/* font-family: 'Luckiest Guy', ;
+font-family: 'Gochi Hand', ; 
+*/
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Luckiest+Guy&display=swap');
+
+@import 'body';
+@import 'title-header';
+@import 'slider-button';
+
+// Utilities
+@import 'variables';
+@import 'mixins';
+
+
+
+// Game Modules
+@import 'gameboard';
+@import 'card';
+@import 'scorepanel';
+@import 'overlay';

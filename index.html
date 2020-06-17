@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Match the Memes</title>
+</head>
+
+<body>
+    <div class="container">
+       <h1>Match the Memes </h1>
+
+       <!--music player container-->
+        <div class="music-player">
+            <label class="switch">  
+                <input name="music" id="musicSlide" type="checkbox" data-checked="true" checked>
+                <span class="slider"></span>
+            </label> 
+        </div> 
+
+
+        <!-- Start game overlay -->
+        <div class="overlay-text visible" >
+           <button class="btn" id="start-game">Start Game</button>
+        </div>    
+
+         <!-- Victory overlay -->
+        <div class="victory-text visible" >
+            <h3>You won! Finally!<span class="overlay-small-text"></span></h3>
+            <button class="btn" id="play-again">Play Again?</button>
+        </div> 
+
+
+            <!-- Score container -->
+        <div class="score-container">
+            <div class="score-panel">
+                <img src="images/popup_header.png" class="score-rings" alt="Popup Header Rings">
+                <img src="images/popup_base.png" class="scorepanel-bg" alt="score-popup" >
+                <h2 class="score-title">Moves: <span id= "moves" class="moves">0 </span></h2>    
+
+                <h2 class="score-title">Matched: <span id="totalMatched" class="matched">0</span></h2>
+
+                <button class="btn" id="restart-game">Restart Game</button>
+            </div>
+        </div>
+
+
+        <!-- Gameboard container -->
+        <section class="gameboard">
+            <!-- Cards -->
+            <div class="card match" data-image="doge" data-match="match">
+                <img src="images/doge.jpg" alt="Doge" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+            <div class="card " data-image="doge">
+                <img src="images/doge.jpg" alt="Doge" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+
+            <div class="card" data-image="butterfly" data-match="match">
+                <img src="images/butterfly.png" alt="Butterfly" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+            <div class="card" data-image="butterfly" >
+                <img src="images/butterfly.png" alt="Butterfly" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+
+            <div class="card match" data-image="pikachu" data-match="match">
+                <img src="images/surprised_pikachu.jpg" alt="Surprised Pikachu" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+            <div class="card" data-image="pikachu">
+                <img src="images/surprised_pikachu.jpg" alt="Surprised Pikachu" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+
+            <div class="card match" data-image="spongebob" data-match="match">
+                <img src="images/spongebob.jpg" alt="Spongebob" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+            <div class="card" data-image="spongebob">
+                <img src="images/spongebob.jpg" alt="Spongebob" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+
+            <div class="card match" data-image="jerry" data-match="match">
+                <img src="images/jerry.jpg" alt="Jerry" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+            <div class="card" data-image="jerry">
+                <img src="images/jerry.jpg" alt="Jerry" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+
+            <div class="card match" data-image="kermit" data-match="match">
+                <img src="images/evil-kermit.jpg" alt="Evil Kermit" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+            <div class="card" data-image="kermit">
+                <img src="images/evil-kermit.jpg" alt="Evil Kermit" class="front-face">
+                <img src="images/fish-sip-backcard.png" alt="Fish Sipping Pop" class="back-face">
+            </div>
+        </section>
+    </div>
+
+     <script src="scripts/main.js"></script> 
+</body>
+</html>
