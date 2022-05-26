@@ -1,5 +1,5 @@
 # Match the Memes
-http://dchow.bcitwebdeveloper.ca/match-the-memes/
+[Live Demo](https://darrien-c.github.io/match-the-memes/)
 
 ## Description
 A meme themed matching card game built with JavaScript 
